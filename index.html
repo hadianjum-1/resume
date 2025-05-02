@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <link rel="icon" type="img/png" href="cricle-photo.png">
+    <link rel="icon" type="img/png" href="cricle-photo.png">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                 <li><a href="">Testimonials</a></li>
             </ul>
         </nav>
-        <a  href ="https://calendly.com/hadianjum278/30min" class="btn-1">Contact Me </a>
+        <a href="https://calendly.com/hadianjum278/30min" class="btn-1">Contact Me </a>
         <a href="#" class="hum"><span class="material-symbols-outlined">
                 menu
             </span></a>
@@ -38,7 +38,7 @@
                         Hi!
                     </div>
                     <div class="t-2 t">i'm <span class="highlighted">Hadi anjum</span></div>
-                    <div class="t-4 t">Graphic designer</div>
+                    <div class="t-4 t"> <span id="element"></span></div>
                     <p class="para">
                         a creative graphic designer specializing in impactful visuals for branding and advertising. I
                         turn ideas into designs that help businesses stand out.
@@ -313,7 +313,13 @@
             <p><a href="#">User Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Graphic Designer', 'Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
 
     <script src="script.js"></script>
 </body>
