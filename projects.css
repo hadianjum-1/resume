@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --maincolor: #F6B519;
+    --secondcolor: #202022;
+    --backcolor: #fff8fb;
+}
+
+body {
+    background-color: var(--backcolor);
+    overflow-x: hidden;
+}
+
+.ProjectS-1 {
+    width: 90vw;
+    min-height: 50vh;
+    margin: 100px auto;
+}
+
+.teop {
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.hig-P {
+    background-color: #F6B519;
+    color: var(--secondcolor);
+    font-style: italic;
+}
+
+.Pro-Data {
+    width: 80%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* overflow-x: auto;  Ensure horizontal scroll */
+}
+
+.Pcard-1 {
+    width: 300px;
+    min-height: 205px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.imP {
+    height: 200px;
+    width: 250px;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    margin: 0 auto 10px;
+}
+
+.t-p-1 {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.t-p-1 h5 {
+    font-size: 19px;
+    color: #202022;
+}
+
+.t-p-1 a {
+    text-decoration: none;
+    color: var(--maincolor);
+    font-size: 20px;
+}
+
+@media (max-width: 1159px) {
+    .Pro-Data {
+        flex-direction: column;
+    }
+}
+
+.ti-1{
+    background-image: url("250.jpg");
+    background-position: center;
+
+}

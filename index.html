@@ -9,19 +9,22 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="icon" type="img/png" href="cricle-photo.png">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 
 <body>
-    <header>
+    <header id="headi-1">
         <div class="logo">Hadi.</div>
         <nav>
             <ul class="remove">
-                <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Blogs</a></li>
-                <li><a href="">Testimonials</a></li>
+                <li><a href="#headi-1">Home</a></li>
+                <li><a href="#ser-1">Services</a></li>
+                <li><a href="#abo-1">About</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="" id="blop-1" onclick="blop()">Blogs</a></li>
+                <li><a href="#tst-1">Testimonials</a></li>
+                
             </ul>
         </nav>
         <a href="https://calendly.com/hadianjum278/30min" class="btn-1">Contact Me </a>
@@ -40,8 +43,7 @@
                     <div class="t-2 t">i'm <span class="highlighted">Hadi anjum</span></div>
                     <div class="t-4 t"> <span id="element"></span></div>
                     <p class="para">
-                        a creative graphic designer specializing in impactful visuals for branding and advertising. I
-                        turn ideas into designs that help businesses stand out.
+                        I'm Hadi a graphic designer and web developer. I create stunning designs and build sleek, responsive websites to bring your vision to life.
                     </p>
                     <div class="btn">
                         <a href="#" class="btn-2">View portfolio</a>
@@ -56,7 +58,7 @@
             <div class="line-2"></div>
         </div>
         <!-- one section end -->
-        <section class="sec-2">
+        <section class="sec-2" id="ser-1">
             <div class="ts-1">
                 <div class="ts-t"><br>
                     <div class="r"><span class="shigh">Services <span class="th">I provide</span>
@@ -111,7 +113,7 @@
             </div>
         </section>
         <!-- Section 3 start  -->
-        <section class="sec-3">
+        <section class="sec-3" id="abo-1">
             <div class="phoc m">
                 <img src="cricle-photo.png" alt="" width="100%">
             </div>
@@ -166,7 +168,7 @@
         </section>
         <!-- section 4 end -->
 
-        <section class="sec-testimonials">
+        <section class="sec-testimonials " id="tst-1">
             <h2 class="testimonial-title">Testimonials</h2>
             <div class="testimonial-cards">
                 <div class="testimonial-card">
@@ -188,67 +190,64 @@
             </div>
         </section>
         <!-- sec5 end -->
-        <section class="contact-section">
-            <div class="contact-container">
-                <!-- Contact Info Section -->
-                <div class="contact-info">
-                    <h2>Contact Us</h2>
-                    <h3>Let’s Talk for <span>Your Next Projects</span></h3>
-                    <p>Creating strong, cohesive brand identities that foster trust, recognition, and lasting
-                        impressions.</p>
-                    <ul class="contact-details">
-                        <li><span class="material-symbols-outlined">
-                                call
-                            </span> +92 (315) 97-1123-7</li>
-                        <li><span class="material-symbols-outlined">
-                                mail
-                            </span> hadianjum278@gmail.com</li>
-                        <li><span class="material-symbols-outlined">
-                                home
-                            </span> Pakistan | peshawar</li>
-                    </ul>
-                </div>
-                <!-- Contact Form Section -->
-                <div class="contact-form">
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                        <div class="form-group">
-                            <input type="hidden" name="access_key" value="e62a8550-5730-4fc3-867f-64d0c9659cb7">
-                            <input type="text" name="name" placeholder="Your Name *" required />
-                            <input type="email" name="email" placeholder="Email *" required />
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" name="phone" placeholder="Phone *" required />
-                            <select name="interest" required>
-                                <option value="" disabled selected>I’m Interested in *</option>
-                                <option value="web-design">Web Design</option>
-                                <option value="graphic-design">Graphic Design</option>
-                                <option value="seo">SEO</option>
-                                <option value="seo">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <select name="budget">
-                                <option value="" disabled selected>Budget Range (USD) *</option>
-                                <option value="500-1000">$500 - $1000</option>
-                                <option value="1000-5000">$1000 - $5000</option>
-                                <option value="5000+">$5000+</option>
-                                <option value="5000+">Other</option>
-                            </select>
-                            <select name="country">
-                                <option value="" disabled selected>Country *</option>
-                                <option value="usa">USA</option>
-                                <option value="uk">UK</option>
-                                <option value="india">Pakistan</option>
-                                <option value="india">Other</option>
-                            </select>
-                        </div>
-                        <textarea name="message" placeholder="Your Message *" required></textarea>
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </section>
+         <section class="contact-section">
+    <div class="contact-container">
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <h3>Let’s Talk for <span>Your Next Projects</span></h3>
+            <p>Creating strong, cohesive brand identities that foster trust, recognition, and lasting impressions.</p>
+            <ul class="contact-details">
+                <li><span class="material-symbols-outlined">call</span> +92 (315) 97-1123-7</li>
+                <li><span class="material-symbols-outlined">mail</span> hadianjum278@gmail.com</li>
+                <li><span class="material-symbols-outlined">home</span> Pakistan | Peshawar</li>
+            </ul>
+        </div>
 
+        <!-- Contact Form Section -->
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="form-group">
+                    <input type="hidden" name="access_key" value="e62a8550-5730-4fc3-867f-64d0c9659cb7">
+                    <input type="text" name="name" placeholder="Your Name *" required />
+                    <input type="email" name="email" placeholder="Email *" required />
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Phone *" required />
+                    <select name="interest" required>
+                        <option value="" disabled selected>I’m Interested in *</option>
+                        <option value="web-design">Web Design</option>
+                        <option value="graphic-design">Graphic Design</option>
+                        <option value="seo">SEO</option>
+                        <option value="seo">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select name="budget">
+                        <option value="" disabled selected>Budget Range (USD) *</option>
+                        <option value="500-1000">$500 - $1000</option>
+                        <option value="1000-5000">$1000 - $5000</option>
+                        <option value="5000+">$5000+</option>
+                        <option value="5000+">Other</option>
+                    </select>
+                    <select name="country">
+                        <option value="" disabled selected>Country *</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="india">Pakistan</option>
+                        <option value="india">Other</option>
+                    </select>
+                </div>
+                <textarea name="message" placeholder="Your Message *" required></textarea>
+
+                <!-- reCAPTCHA -->
+                <div class="g-recaptcha" data-sitekey="6LcomIwrAAAAAAvMULgx_YwplhI0Gt3Kld8P65eQ"></div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
 
 
     </main>
@@ -319,6 +318,10 @@
           strings: ['Graphic Designer', 'Web Developer'],
           typeSpeed: 50,
         });
+
+        function blop(){
+            alert("This page Will be Updated soon ")
+        }
       </script>
 
     <script src="script.js"></script>
